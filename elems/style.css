@@ -1,0 +1,287 @@
+﻿/*ВЕСЬ САЙТ*/
+
+html {
+	background-image: url(photo/Fon_3.jpg);
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/* цвет текста на всей страниц: #505050;*/
+}
+
+body {
+	display: block;
+	margin: 0px;
+}
+
+main {
+	margin-right: auto;
+	margin-left: auto;
+	min-height: 82%;
+	width: 1600px;
+	background-color: rgba(217, 217, 217, 0.75);
+	padding: 10px 15px 15px 15px; /*поля со всех сторон, в порядке верхний, правый, нижний, левый*/
+}
+
+table {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1600px;
+	/*background: #505050; заливка ячейки за ячейками*/
+	border: 1.5px solid #333;
+	padding: 1px;
+	font-size: 18px;
+}
+
+.string{
+	border: 0px;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+}
+
+.string .substring{
+	z-index: 1;
+	height: 42px;
+	width: 120px;
+	border-radius: 8px;
+	padding: 9px;
+	background:#505050;
+	color: rgba(217, 217, 217);
+	position: absolute;
+	cursor: pointer;
+	display: none;
+}
+
+.PhotoInTable {
+	width: 100%;
+}
+
+th, td {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100px;
+	/*background: rgba(217, 217, 217); залифка ячейки*/
+	border: 1px solid #333;
+	padding: 5px;
+}
+
+h1 {
+	margin-left: 15px;
+	margin-top: 10px;
+	font-size: 25px;
+}
+
+h2 {
+	margin-top: 10px;
+	margin-left: 15px;
+	font-size: 20px;
+	margin-block-end: 0em;
+}
+
+h3 {
+	margin-left: 15px;
+	font-size: 16px;
+	color: red;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+}
+
+p {
+	margin-left: 15px;
+	font-size: 16px;
+	margin-block-start: 0em;
+}
+
+/*ШАПКА*/
+
+header {
+	display: flex;
+	color: rgba(217, 217, 217);
+	font: times new roman; 
+}
+
+.header {
+    display: flex;
+	justify-content: space-evenly; /*space-between; space-around; space-evenly;*/
+	align-items: center;
+	background-position: center;
+	width: 100%;
+	height: 50px;
+	margin: 0px;
+	padding: 15px;
+	background-color: #505050;
+ }
+
+.header-button-active{
+	display: inline-block;
+	color: #505050;
+	text-decoration: none;
+	padding: 1em 1em;
+	outline: none;
+	border-width: 2px 0;
+	border-style: solid none;
+	border-color: rgba(217, 217, 217); 
+	border-radius: 6px;
+	background: rgba(217, 217, 217);
+	transition: 0.2s;
+	font-weight: 600;
+}
+
+.header-button{
+	display: inline-block;
+	color: #d9d9d9;
+	text-decoration: none;
+	padding: 1em 1em;
+	outline: none;
+	border-width: 2px 0;
+	border-style: solid none;
+	border-color: #505050; 
+	border-radius: 6px;
+	background: #505050;
+	transition: 0.2s;
+	font-weight: 600;
+}
+
+.header-button-mouseenter{
+	display: inline-block;
+	color: #505050;
+	text-decoration: none;
+	padding: 1em 1em;
+	outline: none;
+	border-width: 2px 0;
+	border-style: solid none;
+	border-color: rgba(217, 217, 217); 
+	border-radius: 6px;
+	background: rgba(217, 217, 217);
+	transition: 0.2s;
+	font-weight: 600;
+}
+
+.header-left{
+	float: left;
+	justify-content: space-between;
+	background-position: center;
+	padding: 0px 0px 0px 15px; /*поля со всех сторон, в порядке верхний, правый, нижний, левый*/
+	position: absolute;
+	left: 0;
+	z-index: 1;
+}
+
+.header-center-left{
+	text-align: justify;
+	float: left;
+	justify-content: space-between;
+	align-items: center;
+	background-position: center;
+	padding: 0px 0px 0px 0px; /*поля со всех сторон, в порядке верхний, правый, нижний, левый*/
+	z-index: 2;
+}
+.header-right{
+	float: right;
+	justify-content: space-between;
+	background-position: center;
+	padding: 0px 15px 0px 0px; /*поля со всех сторон, в порядке верхний, правый, нижний, левый*/
+	position: absolute;
+	right: 0;
+	z-index: 1;
+}
+
+.News{
+	border: 1.5px solid #333;
+	padding: 1px;
+	border-radius: 8px;
+	font-size: 18px;
+	margin: 0px 0px 10px 0px;
+}
+
+.News_head{
+	padding: 5px 5px 5px 15px;
+}
+
+.News_body{
+	padding: 0px 5px 5px 15px;
+}
+
+button{
+	height: 30px;
+	width: 200px;
+	background-color: #505050;
+	color: #d9d9d9;
+	border-radius: 6px;
+	margin: 10px;
+}
+
+input{
+	height: 30px;
+	width: 200px;
+	background-color: #d9d9d9;
+	border-radius: 6px;
+}
+
+/*НИЖНИЙ КОЛОНТИТУЛ*/
+
+footer {
+	margin-right: auto;
+	margin-left: auto;
+	background-position: bottom center;
+	width: 1630px;
+	background-color: #505050;
+	color: #d9d9d9;
+	height: 80px;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-position: center;
+	padding: 5px 15px 0px 15px; /*поля со всех сторон, в порядке верхний, правый, нижний, левый*/
+}
+
+
+
+ul {
+	width: auto; /* Ширина меню */
+	list-style: none; /* Для списка убираем маркеры */
+	margin: 0; /* Нет отступов вокруг */
+	padding: 0; /* Убираем поля вокруг текста */
+}
+
+
+li ul {
+	position: absolute; /* Подменю позиционируются абсолютно */
+	display: none; /* Скрываем подменю */
+	margin-left: 0px; /* Сдвигаем подменю вправо */
+	margin-top: 0px; /* Сдвигаем подменю вверх */
+	z-index: 2;
+}
+
+li a {
+	display: block; /* Ссылка как блочный элемент */
+	padding: 0px; /* Поля вокруг надписи */
+	text-decoration: none; /* Подчеркивание у ссылок убираем */
+	color: black;
+	border: 1px solid #ccc;/* Рамка вокруг пунктов меню */
+	background-color: #f0f0f0; /* Цвет фона */
+	border-bottom: none; /* Границу снизу не проводим */
+	z-index: 2;
+}
+
+}
+
+li a:hover {
+	color: #ffe; /* Цвет текста активного пункта */
+	background-color: #5488af; /* Цвет фона активного пункта */
+	z-index: 2;
+}
+
+li:hover ul { 
+	display: block; /* При выделении пункта курсором мыши отображается подменю */
+	z-index: 2;
+}
+
+.string {
+	z-index: 1;
+	background-color: rgba(217, 217, 217, 0);
+}

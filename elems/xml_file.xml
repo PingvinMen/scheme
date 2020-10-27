@@ -1,0 +1,211 @@
+<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<root>
+	<inquiry>
+		<client id="1">
+			<name>Андрейка</name>
+			<phone>+79454382323</phone>
+			<adres>ул. большая Люблинская, д.23, корп.2, кв.110</adres>
+		</client>
+		<apartment id="1">
+			<adres>ул. Одесская, дом, 22, корп.1</adres>
+			<area>76,5</area>
+			<room>3</room>
+			<info>есть газ, парковочное место</info>
+		</apartment>
+	</inquiry>
+	<inquiry>
+		<client id="1">
+			<name>Андрейка</name>
+			<phone>+79454382323</phone>
+			<adres>ул. большая Люблинская, д.23, корп.2, кв.110</adres>
+		</client>
+		<apartment id="2">
+			<adres>ул. Одесская, дом, 22, корп.1</adres>
+			<area>58,2</area>
+			<room>2</room>
+			<info>есть газ, парковочное место, квартира с отделкой</info>
+		</apartment>
+	</inquiry>
+	<inquiry>
+		<client id="1">
+			<name>Андрейка</name>
+			<phone>+79454382323</phone>
+			<adres>ул. большая Люблинская, д.23, корп.2, кв.110</adres>
+		</client>
+		<apartment id="3">
+			<adres>ул. Одесская, дом, 22, корп.1</adres>
+			<area>35,4</area>
+			<room>1</room>
+			<info>есть газ, парковочное место</info>
+		</apartment>
+	</inquiry>
+	<inquiry>
+		<client id="2">
+			<name>Елена</name>
+			<phone>+74039452387</phone>
+			<adres>Восточный проезд, д.23, корп.1, кв.1</adres>
+		</client>
+		<apartment id="7">
+			<adres>ул. Михневская, дом.12, корп. 2</adres>
+			<area>74,8</area>
+			<room>3</room>
+			<info>есть газ, квартира с отделкой</info>
+		</apartment>
+	</inquiry>
+	<inquiry>
+		<client id="2">
+			<name>Елена</name>
+			<phone>+74039452387</phone>
+			<adres>Восточный проезд, д.23, корп.1, кв.1</adres>
+		</client>
+		<apartment id="8">
+			<adres>ул. Михневская, дом.12, корп. 2</adres>
+			<area>59,3</area>
+			<room>2</room>
+			<info>есть газ, квартира с отделкой</info>
+		</apartment>
+	</inquiry>
+	<inquiry>
+		<client id="2">
+			<name>Елена</name>
+			<phone>+74039452387</phone>
+			<adres>Восточный проезд, д.23, корп.1, кв.1</adres>
+		</client>
+		<apartment id="9">
+			<adres>ул. Михневская, дом.12, корп. 2</adres>
+			<area>37,1</area>
+			<room>1</room>
+			<info>есть газ, квартира с отделкой</info>
+		</apartment>
+	</inquiry>
+	<inquiry>
+		<client id="3">
+			<name>Николай</name>
+			<phone>+74383943485</phone>
+			<adres>ул. 1945 года, дом.12, корп.1, кв.32</adres>
+		</client>
+		<apartment id="1">
+			<adres>ул. Одесская, дом, 22, корп.1</adres>
+			<area>76,5</area>
+			<room>3</room>
+			<info>есть газ, парковочное место</info>
+		</apartment>
+	</inquiry>
+	<inquiry>
+		<client id="3">
+			<name>Николай</name>
+			<phone>+74383943485</phone>
+			<adres>ул. 1945 года, дом.12, корп.1, кв.32</adres>
+		</client>
+		<apartment id="2">
+			<adres>ул. Одесская, дом, 22, корп.1</adres>
+			<area>58,2</area>
+			<room>2</room>
+			<info>есть газ, парковочное место, квартира с отделкой</info>
+		</apartment>
+	</inquiry>
+	<inquiry>
+		<client id="3">
+			<name>Николай</name>
+			<phone>+74383943485</phone>
+			<adres>ул. 1945 года, дом.12, корп.1, кв.32</adres>
+		</client>
+		<apartment id="3">
+			<adres>ул. Одесская, дом, 22, корп.1</adres>
+			<area>35,4</area>
+			<room>1</room>
+			<info>есть газ, парковочное место</info>
+		</apartment>
+	</inquiry>
+	<inquiry>
+		<client id="3">
+			<name>Николай</name>
+			<phone>+74383943485</phone>
+			<adres>ул. 1945 года, дом.12, корп.1, кв.32</adres>
+		</client>
+		<apartment id="4">
+			<adres>ул. Котова, дом. 3, корп.2</adres>
+			<area>73,6</area>
+			<room>3</room>
+			<info>парковочное место, квартира с отделкой</info>
+		</apartment>
+	</inquiry>
+	<inquiry>
+		<client id="3">
+			<name>Николай</name>
+			<phone>+74383943485</phone>
+			<adres>ул. 1945 года, дом.12, корп.1, кв.32</adres>
+		</client>
+		<apartment id="5">
+			<adres>ул. Котова, дом. 3, корп.2</adres>
+			<area>61,2</area>
+			<room>2</room>
+			<info>парковочное место</info>
+		</apartment>
+	</inquiry>
+	<inquiry>
+		<client id="3">
+			<name>Николай</name>
+			<phone>+74383943485</phone>
+			<adres>ул. 1945 года, дом.12, корп.1, кв.32</adres>
+		</client>
+		<apartment id="6">
+			<adres>ул. Котова, дом. 3, корп.2</adres>
+			<area>38,7</area>
+			<room>1</room>
+			<info>парковочное место</info>
+		</apartment>
+	</inquiry>
+	<inquiry>
+		<client id="3">
+			<name>Николай</name>
+			<phone>+74383943485</phone>
+			<adres>ул. 1945 года, дом.12, корп.1, кв.32</adres>
+		</client>
+		<apartment id="7">
+			<adres>ул. Михневская, дом.12, корп. 2</adres>
+			<area>74,8</area>
+			<room>3</room>
+			<info>есть газ, квартира с отделкой</info>
+		</apartment>
+	</inquiry>
+	<inquiry>
+		<client id="3">
+			<name>Николай</name>
+			<phone>+74383943485</phone>
+			<adres>ул. 1945 года, дом.12, корп.1, кв.32</adres>
+		</client>
+		<apartment id="8">
+			<adres>ул. Михневская, дом.12, корп. 2</adres>
+			<area>59,3</area>
+			<room>2</room>
+			<info>есть газ, квартира с отделкой</info>
+		</apartment>
+	</inquiry>
+	<inquiry>
+		<client id="3">
+			<name>Николай</name>
+			<phone>+74383943485</phone>
+			<adres>ул. 1945 года, дом.12, корп.1, кв.32</adres>
+		</client>
+		<apartment id="9">
+			<adres>ул. Михневская, дом.12, корп. 2</adres>
+			<area>37,1</area>
+			<room>1</room>
+			<info>есть газ, квартира с отделкой</info>
+		</apartment>
+	</inquiry>
+	<inquiry>
+		<client id="19">
+			<name>1</name>
+			<phone>1</phone>
+			<adres>1</adres>
+		</client>
+		<apartment id="1">
+			<adres>ул. Одесская, дом, 22, корп.1</adres>
+			<area>76,5</area>
+			<room>3</room>
+			<info>есть газ, парковочное место</info>
+		</apartment>
+	</inquiry>
+</root>
